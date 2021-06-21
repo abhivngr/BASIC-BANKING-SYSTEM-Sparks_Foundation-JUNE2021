@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #6d597a;
+}
+
+/* navbar css starts here  */
+.image{
+    background: rgba(163, 155, 202, 0.5) url('../../Image/bank.jpg');
+    background-size: cover;
+}
+
+
+
+.bg-light{
+    background-color: #cea400!important;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+}
+
+.toggle-color{
+    background-color: #f9f3f3;
+}
+.navbar-brand{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+    color:  #f9f3f3!important;
+}
+
+.nav-link{
+    color: #f9f3f3!important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+.nav-link:hover{
+    background-color: #1a1717;
+}
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content{
+    height: 100vh;
+    color: #fff;
+    padding: 3rem;
+    margin-bottom: 1vh;
+    POSITION: relative;
+    top: 150px;
+    left: 150px
+}
+
+.hero-img{
+    height: 70vh;
+    width: 100%;
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+.inner-banner-image
+{
+    padding-left: 6%; 
+    width:100%; 
+    margin:auto;
+}
+.banner-content
+{
+    position: relative; 
+    padding-top: 6%;
+    padding-bottom: 6%;
+    overflow:hidden; 
+    margin-bottom: 12%; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    max-width: 660px;
+}
+.go-transection{
+    border-radius: 1.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #f30808;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.go-transection:hover{
+    text-decoration: none;
+    background-color: #bfdff0;
+    
+}
+
+
+
+/* footer css starts here */
+footer{
+    background-color:  #f2e9e4;
+    margin-bottom: 0%;
+}
+
+.heading{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+}
+
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+}
+
+.github{
+    color: #24292e!important;
+}
+
+.linkedin{
+    color: #0077b5!important;
+}
+
+.twitter{
+    color: #0077b5!important;
+}
+/* footer css ends here  */
