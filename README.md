@@ -1,4 +1,4 @@
-Basic-Banking-System-sparkfoundaton
+#Basic-Banking-System-sparkfoundaton
 Sparks Foundation Internship Project : Basic Banking System A Web Application used to transfer money between multiple users (In this project there are 10 dummy users).
 
 User table have basic fields such as name, email , bank balance and payment.
